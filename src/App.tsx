@@ -4,7 +4,11 @@ import PasswordMapper from "./views/PasswordMapper";
 function App() {
   return (
     <>
-      <PasswordMapper />
+      <main>
+        <div className="container">
+          <PasswordMapper />
+        </div>
+      </main>
     </>
   );
 }
